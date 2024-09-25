@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register.html</title>
+</head>
+<body>
+    <form action="register.html" method="get" style="background-color: rgb(206, 195, 179);">
+        <fieldset>
+            <legend>REGISTER NOW</legend>
+        <label for="User Name">USER Name:</label>
+        <input type="text" name="User Name" id="User Name" minlength="4" maxlength="18" required autofocus>
+        <br>
+        <br>
+        <label for="password">PASSWORD:</label>
+            <input type="text" name="pasword" id="password" pattern="([A-Za-z0-9])" tittle="the title must contain  comination of capital letter and small letter and digit"required>
+            <br>
+            <br>
+         <label for="email">E-mail:</label>
+         <input type="email" name="email" id="email" value="@gmail.com" required><br>
+         <label for="gender">gender</label> <br><br>
+         <input type="radio"id="male" name="gender"value="male" required>
+         <label for="male">male</label> 
+         <input type="radio"id="female" name="gender"value="female" required>
+         <label for="female">female</label><br>
+         <button type="submit" formaction="registersucces.html">Submit</button>
+
+         <!-- <button><a href="registersucces.html">SUBMIT</a></button>  -->
+         <button><a href="./login.html">Go back</a></button>   
+        </fieldset>
+        
+
+
+    </form>
+    
+</body>
+</html>
